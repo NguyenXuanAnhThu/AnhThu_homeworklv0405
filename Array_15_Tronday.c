@@ -19,10 +19,9 @@ void main()
         scanf ("%d",&b[i]);
     }
     //tron hai day
-    int s[n];
     for (i=0,a[i]=0;i<=n;i++)
     {
-     s[i]=a[i]+b[i];
+     s=a[i]+b[i];
     }
-    printf ("tron hai day la %d",s[i]);
+    printf ("tron hai day la %d",s);
 }
